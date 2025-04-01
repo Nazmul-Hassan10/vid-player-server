@@ -1,16 +1,20 @@
 {
-  "name": "videoplayer",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "javaScript",
-    "backend",
-    "nazmul"
-  ],
-  "author": "nazmul hasan",
-  "license": "ISC",
-  "description": ""
+    "name": "videoplayer",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [
+        "javaScript",
+        "backend",
+        "nazmul"
+    ],
+    "author": "nazmul hasan",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
 }
